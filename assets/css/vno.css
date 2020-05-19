@@ -7816,7 +7816,15 @@ tbody td {
 }
 
 .date,
-.time,
+.time{
+  display: inline-block;
+  color: #fff !important;
+  letter-spacing: 0;
+  font-size: 10px;
+  line-height: 36px;
+  margin: 0;
+  vertical-align: middle;
+}
 .author,
 .tags {
   font-size: 0.8em;
